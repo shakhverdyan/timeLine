@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>timeline</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <div class="timeline">
+    <div class="timeline__item ">
+      <div class="ball"></div>
+      <div class="timeline__label left-align">
+        Step
+      </div>
+    </div>
+    <div class="timeline__item ">
+      <div class="ball"></div>
+      <div class="timeline__label align">
+        Step
+      </div>
+
+    </div>
+    <div class="timeline__item ">
+      <div class="ball"></div>
+      <div class="timeline__label align">
+        Step
+      </div>
+
+    </div>
+    <div class="timeline__item timeline__item-last">
+      <div class="ball"></div>
+      <div class="timeline__label right-align">
+        Step</div>
+    </div>
+    <div class="timeline__item-ball">
+      <div class="ball last-ball"></div>
+    </div>
+  </div>
+  <div class="nav-block">
+    <div class="steps-look">
+      <select name="steps" id="steps">
+        <option value="shooce">Выберите кол-во шагов</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+    </div>
+    <div class="window-look">
+      <select name="look" id="look">
+        <option value="look">Выберите вид расположение label</option>
+        <option value="left">Слева внизу</option>
+        <option value="over">Слева вверху</option>
+        <option value="center">По центру внизу</option>
+        <option value="under">По центру вверху</option>
+      </select>
+    </div>
+  </div>
+
+</body>
+
+</html>
