@@ -20,7 +20,11 @@ function checkStep() {
       const timelineItem = e.target.closest('.timeline__item');
       timelineItem.querySelector('.ball').style.cssText = 'background:#afbea7; border-color:#afbea7;';
       timelineItem.nextElementSibling.querySelector('.ball').style.cssText = 'background:#ff975b; border-color:#ff975b;';
-      timelineItem.style.cssText = "background:#afbea7;transition: all .5s;";
+      timelineItem.nextElementSibling.style.cssText = 'background:#ff975b;';
+      console.log(timelineItem.nextElementSibling);
+
+
+      timelineItem.style.cssText = "background:#afbea7;";
     })
   })
 }
